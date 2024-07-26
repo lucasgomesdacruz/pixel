@@ -1,0 +1,108 @@
+.portfolio-bg {
+    max-width: 100%;
+    background-color: #00303C;
+    background-image: url(../src/images/dot_BG.svg);
+}
+
+.portfolio-container {
+    max-width: 1440px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+.button1 {
+    width: 13%;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    overflow: hidden;
+    right: 78%;
+    bottom: 74%;
+    position: absolute;
+}
+
+.button2 {
+    width: 13%;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    overflow: hidden;
+    right: 9%;
+    bottom: 38%;
+    position: absolute;
+}
+
+.form-container {
+    background-color: #00303C; 
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #C7FB03; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 35%;
+    height: 13%;
+    right: 32%;
+    bottom: 1%;
+    position: absolute;
+    overflow: hidden;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container form > input, textarea, button  {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #C7FB03; 
+    border-radius: 5px;
+    background-color: transparent; 
+    color: #ffffff; 
+    font-size: 16px;
+}
+
+.form-container input::placeholder, textarea::placeholder {
+    color: #cccccc; 
+}
+
+.form-container textarea {
+    resize: none;
+    height: 100px;
+}
+
+.form-container button {
+    background-color: transparent; 
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input:focus, textarea:focus {
+    background-color: transparent; 
+    outline: none; 
+    border-color: #C7FB03; 
+}
+
+.form-container button:hover {
+    background-color: #C7FB03; 
+    color: #023047; 
+    transition: all 0.3s ease;
+} 
+
+.social-container {
+    padding: 3%;
+}
+
+.social-container ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 90px;
+}
+.social-container img {
+    width: 65px;
+}
+
+
+

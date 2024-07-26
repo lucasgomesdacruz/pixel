@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/images/logoHeader.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Pixel</title>
+</head>
+<body>
+    <header class="header-bg">
+        <button id="scrollTopButton" class="scrollTop" aria-label="Ir para o topo da página">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        <nav class="header-nav" aria-label="Main Navigation">
+            <div>
+                <img src="./src/images/logoHeader.svg" alt="Logo Pixel">
+            </div>
+            <div>
+                <ul class="js-menu" >
+                    <li><a href="#portfolio">Serviços</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#portfolio">Nossos Trabalhos</a></li>
+                    <li><a href="#portfolio">Contatos</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero-header">
+            <div>
+                <img src="./src/images/HeroAgencia.png" alt="Somos Uma Agência">
+                <button aria-label="Saiba mais" id="message">
+                    <img src="./src/images/HeroButton.svg" alt="Botão com pino">
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="portfolio-bg" id="portfolio" aria-labelledby="portfolio-heading">
+            <div class="portfolio-container">
+                <img src="./src/images/main.png" alt="imagem com informações sobre a pixel">
+                <button type="button" class="button1" id="message" aria-label="Mais informações"><img src="./src/images/buttonMain.png" alt="Botão com pino"></button>
+                <button type="button" class="button2" id="message" aria-label="Mais informações"><img src="./src/images/buttonMain.png" alt="Botão com pino"></button>
+                <div class="form-container">
+                    <form>
+                        <input type="text" placeholder="Name" required>
+                        <input type="tel" placeholder="Phone" required>
+                        <input type="email" placeholder="Email" required>
+                        <textarea placeholder="Como podemos te ajudar?" required></textarea>
+                        <button type="submit">Enviar!</button>
+                    </form>
+                </div>
+            </div>
+            <div class="social-container">
+                <ul>
+                    <li>
+                        <a href="" rel="noopener noreferrer" target="_blank" aria-label="LinkedIn">
+                            <img src="./src/images/linkedinMain.png" alt="Logo do Linkedin">
+                        </a>
+                    </li>
+                    <li>
+                        <a href=""  rel="noopener noreferrer" target="_blank" aria-label="Whatsapp">
+                            <img src="./src/images/whatsappMain.png" alt="Logo do Whatsapp">
+                        </a>
+                    </li>
+                    <li>
+                        <a href=""  rel="noopener noreferrer" target="_blank" aria-label="Instagram">
+                            <img src="./src/images/instagramMain.png" alt="logo do instagram">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="call-to-action-bg" aria-labelledby="cta-heading">
+            <div class="call-to-action-container">
+                <img src="./src/images/callMain.png" alt="imagem Bora trabalhar juntos">
+                <button type="button" class="button-action" id="message" aria-label="Trabalhar juntos">
+                    <img src="src/images/buttonMain.png" alt="Botão com pino">
+                </button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-bg">
+        <div class="footer-container">
+            <div>
+                <img src="./src/images/logoFooter.png" alt="Logo pixel">
+            </div>
+            <ul>
+                <li>
+                    <a href="" rel="noopener noreferrer" target="_blank" aria-label="LinkedIn">
+                        <img src="./src/images/linkedinFooter.png" alt="Logo do Linkedin">
+                    </a>
+                </li>
+                <li>
+                    <a href="" rel="noopener noreferrer" target="_blank" aria-label="Whatsapp">
+                        <img src="./src/images/whatsappfooter.png" alt="Logo do Whatsapp">
+                    </a>
+                </li>
+                <li>
+                    <a href="" rel="noopener noreferrer" target="_blank" aria-label="Instagram">
+                        <img src="./src/images/instagramfooter.png" alt="logo do instagram">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script type="module" src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+.footer-bg {
+    max-width: 100%;
+    background-color: #00252E;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 60px;
+}
+
+.footer-container ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.footer-container div > a > img {
+    width: 159px;
+}
+
+.footer-container ul > img {
+    width: 42px;
+}
+

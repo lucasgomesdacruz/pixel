@@ -1,0 +1,25 @@
+.scrollTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, #C7FB03, #9ec904);
+    border: none;
+    border-radius: 50%;
+    color: #00252E;
+    cursor: pointer;
+    width: 65px;
+    height: 65px;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 10;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 0.5s ease;
+    font-size: 30px;
+}
+
+.scrollTop.showBtn {
+    opacity: 1;
+    transform: translate(0);
+}

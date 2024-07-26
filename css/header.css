@@ -1,0 +1,52 @@
+.header-bg {
+    max-width: 100%;
+    background-color: #00303C;
+    background-image: url(../src/images/dot_BG.svg);
+}
+
+.header-nav {
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 40px 30px;
+}
+
+.header-nav img {
+    max-width: 158px;
+    background-size: conver;
+}
+
+.header-nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.hero-header {
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.hero-header button {
+    width: 13%;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    right: 13%;
+    bottom: 7%;
+    position: absolute;
+} 
+

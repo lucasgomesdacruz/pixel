@@ -1,0 +1,25 @@
+.call-to-action-bg {
+    max-width: 100%;
+    background-color: #00252E;
+}
+
+.call-to-action-container {
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 40px 30px;
+    position: relative;
+}
+
+.button-action {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    overflow: hidden;
+    right: 44%;
+    bottom: 9%;
+    position: absolute;
+}
