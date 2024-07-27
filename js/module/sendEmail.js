@@ -1,3 +1,5 @@
+import { toast } from './toast.js';
+
 export default function sendEmail() {
     const formElement = document.getElementById('contactForm');
 
@@ -14,20 +16,19 @@ export default function sendEmail() {
             },
         }).then(response => {
             if (response.ok) {
-                
                 formElement.reset(); 
-                alert("Formulário enviado com sucesso!");
+                toast('sucesso', 'Sucesso!', 'Mensagem de sucesso.');
             } else {
                 response.json().then(data => {
                     if (data.errors) {
                         alert(data.errors.map(e => e.message).join(", "));
                     } else {
-                        alert("Oops! Não foi possível enviar o formulário.");
+                        toast('erro', 'Erro!', 'Mensagem de erro.');
                     }
                 });
             }
         }).catch(error => {
-            alert("Erro ao enviar o formulário: " + error);
+            toast('erro', 'Erro!', 'Mensagem de erro.');
         });
     };
 
