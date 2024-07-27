@@ -17,18 +17,18 @@ export default function sendEmail() {
         }).then(response => {
             if (response.ok) {
                 formElement.reset(); 
-                toast('sucesso', 'Sucesso!', 'Mensagem de sucesso.');
+                toast('sucesso', 'Sucesso!', 'Mensagem enviada com sucesso.');
             } else {
                 response.json().then(data => {
                     if (data.errors) {
                         alert(data.errors.map(e => e.message).join(", "));
-                    } else {
-                        toast('erro', 'Erro!', 'Mensagem de erro.');
+                    } else {E
+                        toast('erro', 'Erro!', 'Erro ao enviar, chame no WhatsApp.');
                     }
                 });
             }
         }).catch(error => {
-            toast('erro', 'Erro!', 'Mensagem de erro.');
+            toast('erro', 'Erro!', 'Erro ao enviar, chame no WhatsApp.');
         });
     };
 
